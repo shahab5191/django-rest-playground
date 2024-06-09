@@ -51,4 +51,3 @@ def snippet_detail(request, pk):
         return Response(status=status.HTTP_204_NO_CONTENT)
     else:
         return Response(status=status.HTTP_405_METHOD_NOT_ALLOWED)
-        
